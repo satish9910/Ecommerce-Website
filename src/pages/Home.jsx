@@ -3,11 +3,11 @@ import SimpleSlider from '../components/SimpleSlider';
 import Arrival from '../components/Arrival';
 // import Popular from '../components/Popular';
 
-const Home = () => {
+const Home = ({ products, searchQuery }) => {
   return (
     <div>
      <SimpleSlider/>
-    <Arrival/>
+    <Arrival  products={products} searchQuery={searchQuery} />
     {/* <Popular/> */}
 
     </div>

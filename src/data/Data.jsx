@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import banner1 from "../assets/images/banner1.jpg"
 import banner2 from "../assets/images/banner2.jpg"
 import banner3 from "../assets/images/banner3.jpg"
+
 export const nav=[
     {
         Path:"/",
